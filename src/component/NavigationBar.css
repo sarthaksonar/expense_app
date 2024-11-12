@@ -1,0 +1,27 @@
+/* NavigationBar.css */
+.navbar {
+    padding: 10px 20px;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-link {
+    font-size: 1rem;
+    padding: 8px 15px;
+  }
+  
+  .nav-link:hover {
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .navbar-toggler {
+    border-color: #fff;
+  }
+  .navbar {
+    background-color: #343a40; /* Dark background */
+  }

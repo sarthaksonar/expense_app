@@ -1,0 +1,112 @@
+/* AppComponent.css */
+body {
+    background: linear-gradient(to bottom, #ffffff, #f4f4f9); /* Subtle gradient */
+  }
+.expense-item {
+    margin-bottom: 15px; /* Space between each item */
+    background-color: #f8f9fa; /* Light background color */
+    border-radius: 8px; /* Round the corners */
+}
+
+.expense-item p {
+    font-size: 1.2rem; /* Make the text a little bigger */
+    font-weight: 500; /* Make the text bold */
+}
+
+input[type="text"] {
+    height: 45px; /* Bigger input box to type */
+}
+body {
+    background-color: #f4f4f9; /* Light gray background */
+    font-family: 'Arial', sans-serif;
+  }
+
+  .expense-list-container {
+    background-color: #ffffff; /* White background for the expense list */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow to create depth */
+    padding: 20px;
+    border-radius: 8px;
+  }
+
+  .add-expense-button {
+    background-color: #007bff; /* Blue color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .add-expense-button:hover {
+    background-color: #0056b3; /* Darker blue when hovered */
+  }
+
+  .expense-input {
+    border: 2px solid #ddd; /* Light gray border */
+    padding: 12px;
+    width: 100%;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .expense-input:focus {
+    border-color: #007bff; /* Blue border when focused */
+    outline: none;
+  }
+
+  body {
+    background-color: #f4f4f9;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Navigation bar */
+  .navbar {
+    background-color: #343a40; /* Dark background */
+  }
+  
+  .navbar a {
+    color: white;
+  }
+  
+  .navbar a:hover {
+    color: #ffcc00; /* Gold color for hover effect */
+  }
+  
+  /* Expense list container */
+  .expense-list-container {
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 30px;
+  }
+  
+  /* Button style */
+  .add-expense-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .add-expense-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Input field */
+  .expense-input {
+    border: 2px solid #ddd;
+    padding: 12px;
+    width: 100%;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .expense-input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
